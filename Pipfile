@@ -8,6 +8,6 @@ pytest = "*"
 
 [packages]
 flask = "*"
-numpy = "*"
 requests = "*"
+Flask-SQLAlchemy = "*"
 
