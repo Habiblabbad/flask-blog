@@ -12,5 +12,4 @@ RUN pip install --upgrade pip && \
     pipenv install --system --deploy --ignore-pipfile
 
 EXPOSE 8080
-
-CMD python /app/flask-blog/app.py
+ENTRYPOINT ["sh", "flask-blog/docker-entrypoint.sh"]  

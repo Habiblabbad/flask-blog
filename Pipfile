@@ -10,4 +10,5 @@ pytest = "*"
 flask = "*"
 requests = "*"
 Flask-SQLAlchemy = "*"
+Flask-Migrate = "*"
 
